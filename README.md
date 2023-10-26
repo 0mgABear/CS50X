@@ -48,3 +48,11 @@ Online version of CS50 : Introduction to Computer Science
     - header file to declare that the function exists.
     - only include the functions you care about.
     - stands for: standard input/output.
+  - %s : placeholder, format code. Placeholder for a string.
+    - %% : use 2 if you want to use % for whatever reason. Treated specially inside C.
+- Training library: cs50.h
+- If you want to get back a return vale, need to declare a variable.
+  - = : assignment, not equality.
+  - free choice of variable name.
+  - C is more pedantic , need to tell C the TYPE of value.
+    - Statically typed language!
