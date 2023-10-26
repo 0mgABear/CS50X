@@ -1,12 +1,12 @@
 # Harvard's CS50X
 
-## Notes By: 0mgABear (YY)
+### Notes By: 0mgABear (YY)
 
-## October 2023
+### October 2023
 
 Online version of CS50 : Introduction to Computer Science
 
-# Week 0: Scratch , Computational Thinking
+## Week 0: Scratch , Computational Thinking
 
 - solving problems more methodically and translating into code.
 - Scratch from MIT.
@@ -15,7 +15,7 @@ Online version of CS50 : Introduction to Computer Science
 - Transition into algorithms : step by step instruction to solve some problems.
 - Introduces to C first then to Python (higher-level language).
 
-## Computer Science
+### Computer Science
 
 - programming is a big part
 - unary : fancy way of saying digits / numbers
@@ -35,3 +35,16 @@ Online version of CS50 : Introduction to Computer Science
   - Even emojis are just unicode.
 - Abstraction : simplification of something. Focus on the high level goals, and not so much the low level stuff.
 - Verbs --> functions.
+
+## Week 1 : C
+
+- source code : human written code
+- machine code : what computers understand and execute.
+- compiler: convert source to machine code.
+  - make (C) : it's essentially the compiler.
+  - \n : escape sequence, move the cursor to the next line.
+  - ? #include <stdio.h> : needed, but why?
+    - you don't get printf automatically in c
+    - header file to declare that the function exists.
+    - only include the functions you care about.
+    - stands for: standard input/output.
