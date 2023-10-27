@@ -53,6 +53,17 @@ Online version of CS50 : Introduction to Computer Science
 - Training library: cs50.h
 - If you want to get back a return vale, need to declare a variable.
   - = : assignment, not equality.
+  - == : comparison
   - free choice of variable name.
   - C is more pedantic , need to tell C the TYPE of value.
     - Statically typed language!
+- make (filename), followed by ./ to execute the file.
+- Best practice: opening curly brace keep it on a separate line, don't follow Javascript syntax.
+  - use " " (double quotes) for any string > 1 character.
+  - use ' ' (single quotes) for deliberately single characters (chars)
+  - || (2 vertical bars) for OR operator.
+- Count from 0, count up.
+- While loops and for(int) loops as well.
+- Const : immutable.
+
+- Linux: known for CLI env.
