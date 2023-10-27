@@ -49,7 +49,11 @@ Online version of CS50 : Introduction to Computer Science
     - only include the functions you care about.
     - stands for: standard input/output.
   - %s : placeholder, format code. Placeholder for a string.
+  - %i : Placeholder for integer.
+  - %li : Placeholder for long integer.
+  - %f : Placeholder for floating point value.
     - %% : use 2 if you want to use % for whatever reason. Treated specially inside C.
+    - %.20f : 20 decimal places.
 - Training library: cs50.h
 - If you want to get back a return vale, need to declare a variable.
   - = : assignment, not equality.
@@ -65,5 +69,18 @@ Online version of CS50 : Introduction to Computer Science
 - Count from 0, count up.
 - While loops and for(int) loops as well.
 - Const : immutable.
+- Do while loop!
+
+  - Also exists in [Javascript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 
 - Linux: known for CLI env.
+
+- Void within function : does not take any arguments.
+- Declare what type of output at the very front. (int/bool/e.t.c.)
+
+- 32bit: max number ~ 4B.
+  - but highest it can count is ~2B (allocate half to negative numbers).
+  - integer overflow : run out of bits.
+- long : long integers.
+- truncation could be a problem --> type casting.
+- floating-point imprecision : limit on how precise numbers can be.
