@@ -84,3 +84,28 @@ Online version of CS50 : Introduction to Computer Science
 - long : long integers.
 - truncation could be a problem --> type casting.
 - floating-point imprecision : limit on how precise numbers can be.
+- double : uses twice the number of bits. (64)
+
+## Week 2 : Arrays
+
+- ciphertext
+  - result of encrypting some piece of information
+- encryption / art of cryptogaphy
+
+Some recap:
+
+- compile : source -> machine code
+- clang compiler, underneath the hood
+  - easier to use "make"
+  - tedious to use : clang -o hello hello.c -lcs50
+  - no real benefit of using clang manually
+- another: gcc
+- command line arguments:
+  - (word/phrase) keywords that modify the behaviour of that command
+  - a.out : assembler output (default when compiling with clang)
+- whole process: preprocessing -> compiling -> assembling -> linking
+  - preprocessing: # (preprocessor directive), special symbol in C.
+  - compiling : change to assembly code --> closer to what computers themselves undertand
+  - assembling : converts to actual machine code
+  - linking : link with preprocessed code (link all the binary)
+- can use printf() as a form of debugging.
