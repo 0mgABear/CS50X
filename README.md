@@ -105,7 +105,16 @@ Some recap:
   - a.out : assembler output (default when compiling with clang)
 - whole process: preprocessing -> compiling -> assembling -> linking
   - preprocessing: # (preprocessor directive), special symbol in C.
+    - function declarations in another file / library
+    - copy and paste from other libraries so that your code knows about all these other functions that you are using / importing.
   - compiling : change to assembly code --> closer to what computers themselves undertand
   - assembling : converts to actual machine code
-  - linking : link with preprocessed code (link all the binary)
+  - linking : link your code with preprocessed code (link all the 1s and 0s together).
+- decompiling is not so easy, basically revese engineering the 1s and 0s to source code.
+  - many cons : stealing of intellectual property
+  - easier to find bugs etc.
 - can use printf() as a form of debugging.
+- there is a built in debugger in visual studio code.
+  - to the left of the editor, the "gutter", there is a red dot : a breakpoint.
+  - a stop sign equivalent, telling the editor to stop running the code there.
+  - step through code line by line.

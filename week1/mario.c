@@ -3,6 +3,7 @@
 
 int get_size(void);
 void print_grid(int size);
+
 int main(void)
 {
   int n;
