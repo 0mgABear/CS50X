@@ -1,4 +1,4 @@
-# Shorts
+# Week 1 Shorts
 
 ## Data Types
 
@@ -113,3 +113,17 @@ Type
 - diff
   - difference : compare two files,
 - telnet
+
+# Week 2 Shorts
+
+## Functions
+
+## Variables and Scope'
+
+## Debugging ("Step Through")
+
+## Debugging ("Step Into")
+
+## Arrays
+
+## Command Line Arugments
