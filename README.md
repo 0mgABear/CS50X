@@ -122,3 +122,45 @@ Some recap:
 
 - in C, no libary to determine the length of an array
   - must remember the length of the array yourself.
+- arrays can be used to store multiple values, can also be passed arounda as arguments.
+
+- string : variable length
+
+  - just an array of characters. (in C)
+  - can treat string as an array and then access each of the individual letters by their index.
+  - when you store string in memory, it uses a +1 byte in total, adds a special \0.
+  - \0 : NUL. The string ends here.
+  - NUL only exists in string, not arrays.
+  - strlen exists in <string.h>
+
+- <c.type.h> : another helpful library
+
+### Command Line Arguments:
+
+- cowsay
+  - takes at least 1 argument
+  - output something with a cow saying it.
+  - -f : change appearance of cowsay
+    - duck, dragon
+
+### Exit Status:
+
+- returns a secret integer when your main function exits
+- usually used to indicate errors
+  - error codes usually correspond to something somewhere that a human knows what the error is.
+- echo $?
+- can always check in code
+
+int is always there for main, and it indicates main will ALWAYS return an integer.
+
+- even if we don't declare it explicitly
+- usually returns 0 by default. (hidden)
+
+### Cryotography:
+
+- scrambling information
+- encryption
+- only people who know what algorithm you used + the input can decrpt
+- plaintext --> ciperhtext
+- algorithm : cipher (in cryptography)
+  - need an input

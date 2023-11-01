@@ -39,3 +39,28 @@ int main(void)
     }
   }
 }
+
+//final version - fewer lines of code
+//toupper converts everything to upper, doesn't touch existing uppercase letters.
+
+int main(void)
+{
+  string s = get_string("Before: ");
+  printf("After: ");
+  for (int i = 0; i < strlen(s); i++)
+  {
+    printf('%c', toupper(s[i]));
+  }
+}
+
+//optimisation to prevent recalculation , marginally more performant
+//version4
+int main(void)
+{
+  string s = get_string("Before: ");
+  printf("After: ");
+  for (int i = 0; n = strlen(s); i < n; i++)
+  {
+    printf('%c', toupper(s[i]));
+  }
+}
