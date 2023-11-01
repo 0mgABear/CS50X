@@ -115,6 +115,10 @@ Some recap:
   - easier to find bugs etc.
 - can use printf() as a form of debugging.
 - there is a built in debugger in visual studio code.
+
   - to the left of the editor, the "gutter", there is a red dot : a breakpoint.
   - a stop sign equivalent, telling the editor to stop running the code there.
   - step through code line by line.
+
+- in C, no libary to determine the length of an array
+  - must remember the length of the array yourself.
