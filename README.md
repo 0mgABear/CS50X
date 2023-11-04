@@ -119,6 +119,14 @@ Some recap:
   - to the left of the editor, the "gutter", there is a red dot : a breakpoint.
   - a stop sign equivalent, telling the editor to stop running the code there.
   - step through code line by line.
+  - debug50 (for the purposes of this course)
+  - some "play back" functions at the top of vscode.
+
+- rubber duck debugging:
+
+  - express yourself verbally , sounding things out.
+  - talking to someone!
+  - don't stare at your screen endlessly, take a break.
 
 - in C, no libary to determine the length of an array
   - must remember the length of the array yourself.
