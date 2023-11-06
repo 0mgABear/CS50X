@@ -29,5 +29,7 @@ What's the point of command-line arguments?
 
 - modify program behaviour
 - refresher: int main(int argc, string argv[]);
+  - how many arguments are given : argc for argument count
+  - array of the arguments -> argv: argument vector
 
 What makes for good design?
