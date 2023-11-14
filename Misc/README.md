@@ -118,12 +118,58 @@ Type
 
 ## Functions
 
-## Variables and Scope'
+- not a good idea to keep everything inside main
+- a.k.a procedures, methods (in OOP), subroutines
+- 0+ input and 1 output
+- typically obvious name(s) and well documented
+- break up complicated problem into manageable subparts
+- easier to debug smaller pieces
+- reusable
+
+In C:
+
+- declare at the top before main()
+- declaration:
+  - return-type name(argument-list);
+    - return-type: type of variable the function will output
+      - no output : void return type
+    - name: name of fxn
+    - argument-list : comma-separated, inputs to function, each has a type and name.
+      - no inputs : void argument list
+
+## Variables and Scope
+
+Scope:
+
+- characteristic of a variable that defines from which fxns that variable may be accessed
+  - local variables can only be accessed within the fxns that they are created
+    - pass by value (when we make the function call)
+    - callee receives a copy of the variable, not the variable itself
+  - global variables : can be used by any fxn
 
 ## Debugging ("Step Through")
 
+- debug50 (filename)
+
 ## Debugging ("Step Into")
 
+- using the step into option to go through line by line of code
+- use strcmp for string comparison, not ==
+
 ## Arrays
+
+- hold value of same data type at contiguous memory locations
+- block of contiguous space in memory
+  - partitioned into elements
+  - can store a certain amount (and type) of data
+  - all must be same data type
+  - each element accessed by index
+    - trying to access data outside of the array (e.g. non-existent indexes) might lead to segmentation fault
+- declaration:
+  - type name[size];
+  - use curly braces to instantiate an array in C
+- cannot treat entire ararys themselves as variables
+  - cannot assign one array to another using assignment operator
+  - possible in other languages, but not in C
 
 ## Command Line Arugments
