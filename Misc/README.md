@@ -169,7 +169,28 @@ Scope:
   - type name[size];
   - use curly braces to instantiate an array in C
 - cannot treat entire ararys themselves as variables
+
   - cannot assign one array to another using assignment operator
   - possible in other languages, but not in C
 
+- most variables in C are passed by value (passing a copy)
+- array does NOT follow this rule
+  - they are passed by reference
+  - callee (function that is receiving the array) receives the actual array, not just a copy
+
 ## Command Line Arugments
+
+- to collect command-line arguments from the user, declare main as:
+  - int main (int argc, string argv[])
+  - passing in two parameters into main
+    - integer argc
+      - argument count
+      - store the numbe of command line arguments the user typed when program was executed
+      - program name itself counts as a command-line argument, so minimum argc is 1.
+    - array of strings argv
+      - argument vector
+      - vector is just another word for array
+      - stores strings, one string per element : the strings that the user actually typed at the command-line when program was executed
+      - (IMPORTANT) even if you type in a number in the command line, argv stores it as a string, not as an integer!
+    - these 2 arguments enable us to know what data user provided at command-line and how many things was provided
+    - can call them whatever, just called argc and argv based on convention
